@@ -1,5 +1,6 @@
 const connect = require('./database/db');
 const router = require('./routes/image');
+const cors = require('cors');
 //Requerimo express
 const express = require('express');
 //Instancimaos express
@@ -12,6 +13,7 @@ const PORT = process.env.PORT || 3001; //VARIABLE DE ENTORNOOOO
 connect();
 
 //Middleware
+app.use(cors());
 app.use(express.json());
 app.use('/upload', router);
 
