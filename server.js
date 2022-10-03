@@ -1,4 +1,3 @@
-const connect = require('./database/db');
 const router = require('./routes/image');
 const cors = require('cors');
 //Requerimo express
@@ -10,7 +9,8 @@ const app = express();
 const PORT = process.env.PORT || 3001; //VARIABLE DE ENTORNOOOO
 
 //Connectando a la base de datos
-connect();
+//connect();
+
 
 //Middleware
 app.use(cors());

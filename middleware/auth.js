@@ -1,7 +1,7 @@
 const auth = (req, res, next)=>{
   const key = req.query.key;
   
-  if(key !== process.env.KEY ){
+  if(key !== process.env.KEY){
     return res.json({
       response : 'no estas autorizado'
     })
