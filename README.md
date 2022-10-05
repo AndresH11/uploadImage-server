@@ -41,7 +41,7 @@
 
 Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
 
-- Where can I see your demo? R// this is the server part, the client that makes use of this service is in the following repository https://github.com/AndresH11/uploadImage-server
+- Where can I see your demo? R// this is the server part, the client that makes use of this service is in the following repository https://github.com/AndresH11/uploadImage-client
 
 ### Built With
 
