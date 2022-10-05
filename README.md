@@ -12,7 +12,7 @@
       Demo
     </a>
     <span> | </span>
-    <a href="https://dancing-pastelito-079716.netlify.app/">
+    <a href="https://github.com/AndresH11/uploadImage-server">
       Solution
     </a>
     <span> | </span>
